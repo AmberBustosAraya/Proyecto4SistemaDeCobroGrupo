@@ -45,10 +45,10 @@ public class Pantalla extends javax.swing.JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Crear y mostrar el JFrame "InventarioFrame"
-                Inventario inventario = new Inventario();
-                inventario.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-                inventario.setSize(789, 785);
-                inventario.setVisible(true);
+                Compra compra = new Compra();
+                compra.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                compra.setSize(789, 785);
+                compra.setVisible(true);
 
             }
 
