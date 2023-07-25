@@ -10,6 +10,9 @@ public class Pantalla extends javax.swing.JFrame {
 
     /**
      * Creates new form Interfaz
+     * @author Jafet Araya
+     * @author Amber Bustos
+     * @author Juss
      */
     public Pantalla() {
         initComponents();
@@ -22,9 +25,57 @@ public class Pantalla extends javax.swing.JFrame {
                 inventario.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 inventario.setSize(789, 785);
                 inventario.setVisible(true);
-                
+
             }
-            
+
+        });
+        jButton2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Crear y mostrar el JFrame "InventarioFrame"
+                Inventario inventario = new Inventario();
+                inventario.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                inventario.setSize(789, 785);
+                inventario.setVisible(true);
+
+            }
+
+        });
+        jButton3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Crear y mostrar el JFrame "InventarioFrame"
+                Inventario inventario = new Inventario();
+                inventario.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                inventario.setSize(789, 785);
+                inventario.setVisible(true);
+
+            }
+
+        });
+        jButton4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Crear y mostrar el JFrame "InventarioFrame"
+                Inventario inventario = new Inventario();
+                inventario.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                inventario.setSize(789, 785);
+                inventario.setVisible(true);
+
+            }
+
+        });
+        jButton5.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Crear y mostrar el JFrame "InventarioFrame"
+                Gracias gracias = new Gracias();
+                gracias.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                gracias.setSize(789, 785);
+                gracias.setVisible(true);
+
+            }
+
         });
     }
 
